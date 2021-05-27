@@ -8,7 +8,19 @@
   border-radius: 30px !important;
 }
 
-@media (max-width: 430px) {
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.icon-color {
+  color: #717171;
+}
+$primary: #ff5a60;
+$secondary: #717171;
+// $theme-colors: (
+//   "primary": $primary,
+// );
+@media (max-width: 430px,) {
   .input-width {
     width: 100% !important;
   }

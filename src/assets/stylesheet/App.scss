@@ -1,0 +1,23 @@
+.main-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border-radius-30 {
+  border-radius: 30px !important;
+}
+
+@media (max-width: 430px) {
+  .input-width {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 430px) {
+  .input-width {
+    width: 25% !important;
+  }
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
